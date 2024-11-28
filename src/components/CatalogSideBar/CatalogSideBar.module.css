@@ -1,0 +1,72 @@
+.catalogSideBar {
+  width: 360px;
+}
+
+.searchSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 40px;
+  input {
+    color: var(--Gray, #6c717b);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    display: flex;
+    width: 360px;
+    height: 56px;
+    padding: 18px 285px 18px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    border: none;
+    background: var(--Inputs, #f7f7f7);
+  }
+}
+.filterWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.pFilters {
+  color: var(--Text, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.filterSection {
+  ul {
+    display: flex;
+    gap: 12px;
+    border-top: #dadde1 1px solid;
+    margin-top: 24px;
+  }
+  li {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid var(--Gray-light, #dadde1);
+    mix-blend-mode: multiply;
+    width: 112px;
+    padding: 16px 18px;
+    align-items: center;
+    font-weight: 500;
+    color: var(--Main, #101828);
+    text-align: center;
+    gap: 8px;
+  }
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}
