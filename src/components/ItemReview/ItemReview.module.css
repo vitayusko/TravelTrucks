@@ -46,4 +46,5 @@
   flex-shrink: 0;
   object-fit: cover;
   object-position: center;
+  background-color: #f0f0f0;
 }

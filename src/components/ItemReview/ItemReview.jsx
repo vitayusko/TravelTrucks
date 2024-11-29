@@ -15,11 +15,9 @@ const ItemReview = () => {
   const status = useSelector(selectCatalogStatus);
   const error = useSelector(selectCatalogError);
 
-  // Данные items из store
   const items = useSelector((state) => state.catalog.items);
 
-  // Преобразуем ID в число и ищем элемент
-  const item = items.find((item) => Number(item.id) === Number(id)); // Преобразуем оба значения в число
+  const item = items.find((item) => Number(item.id) === Number(id));
 
   useEffect(() => {
     if (status === "idle") {
@@ -27,12 +25,10 @@ const ItemReview = () => {
     }
   }, [dispatch, status]);
 
-  // Логирование
   console.log("Item ID:", id);
   console.log("Items in state:", items);
   console.log(id, item);
 
-  // Отображение состояний
   if (status === "loading") return <p>Loading...</p>;
   if (status === "failed") return <p>Error: {error}</p>;
   if (!item) return <p>Item not found</p>;

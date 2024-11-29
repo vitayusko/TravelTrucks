@@ -115,3 +115,12 @@
   border: 1px solid var(--Button-Hover, #d84343);
   background-color: transparent;
 }
+
+.like {
+  cursor: pointer;
+  fill: #000;
+}
+.liked {
+  cursor: pointer;
+  fill: #e44848;
+}

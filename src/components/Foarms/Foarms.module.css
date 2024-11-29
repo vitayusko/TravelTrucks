@@ -7,6 +7,11 @@
   gap: 24px;
   border-radius: 10px;
   border: 1px solid var(--Gray-light, #dadde1);
+  position: relative;
+  button {
+    width: 166px;
+    margin-top: 24px;
+  }
 }
 
 .mainInfoWrapper {
@@ -34,10 +39,6 @@
   }
 }
 
-button {
-  width: 166px;
-}
-
 textarea {
   resize: none;
   height: 118px;
@@ -52,4 +53,18 @@ textarea {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+
+.notification {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(144, 238, 144, 0.422);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  border: 1px solid #00cc00;
+  color: #008800;
+  text-align: center;
 }

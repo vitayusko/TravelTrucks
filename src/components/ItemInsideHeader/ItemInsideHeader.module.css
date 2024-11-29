@@ -11,3 +11,16 @@
     color: var(--Main, #101828);
   }
 }
+
+.active h3 {
+  position: relative;
+}
+.active h3::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #e44848;
+}

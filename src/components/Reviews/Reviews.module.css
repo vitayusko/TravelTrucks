@@ -58,3 +58,7 @@
     font-weight: 500;
   }
 }
+
+.iconStar {
+  fill: #f2f4f7; /* Цвет для пустых звезд */
+}
