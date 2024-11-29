@@ -1,0 +1,117 @@
+.catalogWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 52px;
+}
+.CatalogList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.CatalogListItem {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-light, #dadde1);
+  background: var(--White, #fff);
+  img {
+    width: 292px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.mainInfoWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  h2 {
+    color: var(--Main, #101828);
+  }
+}
+
+.priceWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.reviewWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 24px;
+  p {
+    color: var(--Main, #101828);
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+  .iconStar {
+    fill: #ffc531;
+  }
+}
+.paragraph {
+  margin-bottom: 24px;
+}
+
+.vehicleEquipmentList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.vehicleEquipmentItem {
+  display: flex;
+  padding: 12px 18px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--Badges, #f2f4f7);
+  mix-blend-mode: multiply;
+  color: var(--Main, #101828);
+  font-weight: 500;
+}
+
+.loadBTN {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  border: 1px solid var(--Gray-light, #dadde1);
+  color: var(--Main, #101828);
+  background-color: transparent;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  margin-top: 40px;
+  width: 160px;
+}
+.loadBTN:hover {
+  border-radius: 200px;
+  border: 1px solid var(--Button-Hover, #d84343);
+  background-color: transparent;
+}

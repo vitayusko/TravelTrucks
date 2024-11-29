@@ -25,6 +25,7 @@
     border-radius: 12px;
     border: none;
     background: var(--Inputs, #f7f7f7);
+    padding: 16px 16px 16px 48px;
   }
 }
 .filterWrapper {
@@ -46,12 +47,14 @@
 .filterSection {
   ul {
     display: flex;
-    gap: 12px;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 12px;
     border-top: #dadde1 1px solid;
     margin-top: 24px;
+    padding-top: 24px;
   }
   li {
-    margin-top: 24px;
     display: flex;
     flex-direction: column;
     border-radius: 12px;
@@ -64,9 +67,42 @@
     color: var(--Main, #101828);
     text-align: center;
     gap: 8px;
+    width: 112px;
+    justify-content: center;
   }
   svg {
     width: 32px;
     height: 32px;
+    flex-shrink: 0;
   }
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  fill: var(--Gray, #6c717b);
+  pointer-events: none;
+}
+
+.specificLi {
+  height: 96px;
+}
+
+.activeFilter {
+  border: 1px solid #e44848 !important;
+}
+.activeTextAndIcon {
+  color: var(--Main, #101828) !important;
+}
+
+.inputWrapper .inputIcon {
+  fill: var(--Main, #101828) !important;
 }

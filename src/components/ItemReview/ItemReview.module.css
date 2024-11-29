@@ -1,0 +1,49 @@
+.wrapper {
+  padding-top: 48px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.mainInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  h2 {
+    color: var(--Main, #101828);
+  }
+}
+
+.reviewWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  gap: 16px;
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+  p {
+    color: var(--Main, #101828);
+  }
+}
+.imgList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.img {
+  height: 312px;
+  width: 292px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
+}
