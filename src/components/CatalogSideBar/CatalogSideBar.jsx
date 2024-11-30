@@ -114,7 +114,7 @@ const CatalogSideBar = () => {
         </label>
         <div className={s.inputWrapper}>
           <svg className={s.inputIcon}>
-            <use xlinkHref="/src/assets/icons/icons.svg#icon-localisation" />
+            <use xlinkHref="/icons.svg#icon-localisation" />
           </svg>
           <input
             type="text"
@@ -137,7 +137,7 @@ const CatalogSideBar = () => {
               className={filters.hasAC ? s.activeFilter : ""}
             >
               <svg>
-                <use xlinkHref="/src/assets/icons/icons.svg#icon-ac" />
+                <use xlinkHref="/icons.svg#icon-ac" />
               </svg>
               AC
             </li>
@@ -146,7 +146,7 @@ const CatalogSideBar = () => {
               className={filters.automatic ? s.activeFilter : ""}
             >
               <svg>
-                <use xlinkHref="/src/assets/icons/icons.svg#icon-automatic" />
+                <use xlinkHref="/icons.svg#icon-automatic" />
               </svg>
               Automatic
             </li>
@@ -160,7 +160,7 @@ const CatalogSideBar = () => {
                 filters.kitchen ? "activeFilter" : ""
               )}
               <svg>
-                <use xlinkHref="/src/assets/icons/icons.svg#icon-kitchen" />
+                <use xlinkHref="/icons.svg#icon-kitchen" />
               </svg>
               Kitchen
             </li>
@@ -170,7 +170,7 @@ const CatalogSideBar = () => {
               className={filters.tv ? s.activeFilter : ""}
             >
               <svg>
-                <use xlinkHref="/src/assets/icons/symbol.svg#icon-tv" />
+                <use xlinkHref="/symbol.svg#icon-tv" />
               </svg>
               TV
             </li>
@@ -179,7 +179,7 @@ const CatalogSideBar = () => {
               className={filters.bathroom ? s.activeFilter : ""}
             >
               <svg>
-                <use xlinkHref="/src/assets/icons/icons.svg#icon-shower" />
+                <use xlinkHref="/icons.svg#icon-shower" />
               </svg>
               Bathroom
             </li>
@@ -193,7 +193,7 @@ const CatalogSideBar = () => {
               className={filters.bodyType === "van" ? s.activeFilter : ""}
             >
               <svg>
-                <use xlinkHref="/src/assets/icons/symbol.svg#icon-van" />
+                <use xlinkHref="/symbol.svg#icon-van" />
               </svg>
               Van
             </li>
@@ -204,7 +204,7 @@ const CatalogSideBar = () => {
               }
             >
               <svg>
-                <use xlinkHref="/src/assets/icons/symbol.svg#icon-integrated" />
+                <use xlinkHref="/symbol.svg#icon-integrated" />
               </svg>
               Fully Integrated
             </li>
@@ -213,7 +213,7 @@ const CatalogSideBar = () => {
               className={filters.bodyType === "alcove" ? s.activeFilter : ""}
             >
               <svg>
-                <use xlinkHref="/src/assets/icons/symbol.svg#icon-alcove" />
+                <use xlinkHref="/symbol.svg#icon-alcove" />
               </svg>
               Alcove
             </li>

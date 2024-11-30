@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container">
         <nav className={s.nav}>
           <svg width="136" height="16" className={s.logo}>
-            <use xlinkHref="/src/assets/logo/Logo.svg#TravelTrucks" />
+            <use xlinkHref="/Logo.svg#TravelTrucks" />
           </svg>
 
           <ul className={s.ul}>
