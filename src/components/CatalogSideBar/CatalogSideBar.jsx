@@ -1,5 +1,3 @@
-// src/components/CatalogSideBar/CatalogSideBar.jsx
-
 import React, { useState } from "react";
 import s from "./CatalogSideBar.module.css";
 import { useDispatch, useSelector } from "react-redux";

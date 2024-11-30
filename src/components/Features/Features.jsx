@@ -55,9 +55,7 @@ const Features = () => {
             .map((equipmentItem, index) => (
               <li key={index} className={s.vehicleEquipmentItem}>
                 <svg>
-                  <use
-                    xlinkHref={`/src/assets/icons/icons.svg#${equipmentItem.icon}`}
-                  />
+                  <use xlinkHref={`/icons.svg#${equipmentItem.icon}`} />
                 </svg>
                 {equipmentItem.name}
               </li>

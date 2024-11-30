@@ -17,12 +17,12 @@ const RatingStars = ({ rating }) => {
     <div className={s.rating}>
       {Array.from({ length: filledStars }, (_, index) => (
         <svg key={`filled-${index}`} className={s.iconStar}>
-          <use xlinkHref="/src/assets/icons/icons.svg#icon-star-y" />
+          <use xlinkHref="/icons.svg#icon-star-y" />
         </svg>
       ))}
       {Array.from({ length: emptyStars }, (_, index) => (
         <svg key={`empty-${index}`} className={s.iconStar}>
-          <use xlinkHref="/src/assets/icons/icons.svg#icon-star" />
+          <use xlinkHref="/icons.svg#icon-star" />
         </svg>
       ))}
     </div>

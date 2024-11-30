@@ -42,7 +42,7 @@ const ItemReview = () => {
         <div className={s.reviewWrapper}>
           <div>
             <svg className={s.iconStar}>
-              <use xlinkHref="/src/assets/icons/icons.svg#icon-star-y" />
+              <use xlinkHref="/icons.svg#icon-star-y" />
             </svg>
             <p>
               {item.rating} ({item.reviews.length} Reviews)
@@ -50,7 +50,7 @@ const ItemReview = () => {
           </div>
           <div>
             <svg>
-              <use xlinkHref="/src/assets/icons/icons.svg#icon-localisation" />
+              <use xlinkHref="/icons.svg#icon-localisation" />
             </svg>
             <p>{item.location}</p>
           </div>
