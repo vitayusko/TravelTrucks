@@ -1,3 +1,5 @@
+// src/redux/catalog/catalogSlice.js
+
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchCatalog = createAsyncThunk(

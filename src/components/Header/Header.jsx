@@ -13,6 +13,7 @@ const Header = () => {
           <svg width="136" height="16" className={s.logo}>
             <use xlinkHref="/src/assets/logo/Logo.svg#TravelTrucks" />
           </svg>
+
           <ul className={s.ul}>
             <li>
               <Link

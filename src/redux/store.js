@@ -1,3 +1,5 @@
+// src/redux/store.js
+
 import { configureStore } from "@reduxjs/toolkit";
 // import favoritesReducer from "./favorites/favoritesSlice";
 import filtersReducer from "./filters/filtersSlice";

@@ -160,7 +160,7 @@
 // };
 
 // export default CatalogList;
-
+// src/components/CatalogList/CatalogList.jsx
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import s from "./CatalogList.module.css";
@@ -279,14 +279,14 @@ const CatalogList = () => {
                       onClick={() => handleFavoriteClick(item.id)}
                       className={favorites.includes(item.id) ? s.liked : s.like}
                     >
-                      <use xlinkHref="/src/assets/icons/icons.svg#icon-like" />
+                      <use xlinkHref="/icons.svg#icon-like" />
                     </svg>
                   </div>
                 </div>
                 <div className={s.reviewWrapper}>
                   <div>
                     <svg className={s.iconStar}>
-                      <use xlinkHref="/src/assets/icons/icons.svg#icon-star-y" />
+                      <use xlinkHref="/icons.svg#icon-star-y" />
                     </svg>
                     <p>
                       {item.rating} ({item.reviews.length} Reviews)
@@ -294,7 +294,7 @@ const CatalogList = () => {
                   </div>
                   <div>
                     <svg>
-                      <use xlinkHref="/src/assets/icons/icons.svg#icon-localisation" />
+                      <use xlinkHref="/icons.svg#icon-localisation" />
                     </svg>
                     <p>{item.location}</p>
                   </div>
@@ -312,7 +312,7 @@ const CatalogList = () => {
                         <li key={index} className={s.vehicleEquipmentItem}>
                           <svg>
                             <use
-                              xlinkHref={`/src/assets/icons/icons.svg#${equipmentItem.icon}`}
+                              xlinkHref={`/icons.svg#${equipmentItem.icon}`}
                             />
                           </svg>
                           {equipmentItem.name}

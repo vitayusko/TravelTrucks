@@ -1,3 +1,5 @@
+// src/redux/catalog/catalogSelectors.js
+
 export const selectCatalogItems = (state) => state.catalog.items;
 export const selectCatalogStatus = (state) => state.catalog.status;
 export const selectCatalogError = (state) => state.catalog.error;

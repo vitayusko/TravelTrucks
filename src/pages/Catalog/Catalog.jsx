@@ -1,3 +1,5 @@
+// src/pages/Catalog/Catalog.jsx
+
 import React from "react";
 import CatalogSideBar from "../../components/CatalogSideBar/CatalogSideBar";
 import s from "./Catalog.module.css";
