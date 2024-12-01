@@ -1,5 +1,18 @@
 // src/redux/filters/filtersSlice.js
-import { createSlice } from "@reduxjs/toolkit";
+
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+
+export const fetchFilter = createAsyncThunk(
+  "catalog/fetchFilter",
+  async (filters, thunkAPI) => {
+    const params = new URLSearchParams(filters).toString();
+    const response = await fetch(`/api/catalog?${params}`);
+    if (!response.ok) {
+      throw new Error("Failed to fetch filtered catalog");
+    }
+    return await response.json();
+  }
+);
 
 const initialState = {
   location: "",
