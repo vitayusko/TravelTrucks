@@ -1,8 +1,38 @@
-# React + Vite
+TravelTruck
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Short Description:
+A brief overview of what your project does and its purpose (e.g., "A web application for booking campervans, showcasing features, reviews, and seamless user interaction.").
 
-Currently, two official plugins are available:
+Key Features
+List the primary features, such as:
+Campervan gallery with dynamic image loading.
+Review and rating system.
+Real-time booking form with validation.
+Data fetched dynamically from a backend API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+
+Clone the repository:
+bash
+git clone <repository-url>
+
+Navigate to the project directory:
+bash
+cd project-name
+
+Install dependencies:
+bash
+npm install
+
+Start the development server:
+bash
+npm start
+
+Usage
+
+Open the app in your browser at https://travel-trucks-lake.vercel.app/
+Navigate through the features, view campervans, read reviews, and book your desired van.
+
+Author
+Name: Vita Yusko
+
